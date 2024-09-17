@@ -1,0 +1,16 @@
+{
+  "name": "demotypescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -w",
+    "start:dev": "set NODE_ENV=development && nodemon dist/main.js",
+    "start:prod": "set NODE_ENV=development && nodemon dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
